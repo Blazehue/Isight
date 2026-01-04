@@ -1,6 +1,18 @@
 """
 Evaluation Module for Sign Language Detection
-Comprehensive accuracy testing, debugging, and performance analysis
+
+This module provides comprehensive accuracy testing, debugging, and performance analysis
+for sign language detection models.
+
+Features:
+- Live accuracy testing
+- Confusion matrix generation
+- Per-gesture performance analysis
+- FPS tracking
+- Debug visualization
+
+Author: Blazehue
+Date: January 2026
 """
 
 import cv2

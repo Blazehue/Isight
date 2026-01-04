@@ -69,9 +69,16 @@ def extract_features(hand_landmarks):
 def calculate_finger_states(landmarks):
     """
     Determine if each finger is extended or bent.
-    Returns: [thumb, index, middle, ring, pinky] (1=extended, 0=bent)
     
-    This is critical for ASL recognition as many signs differ by which fingers are extended.
+    This function analyzes the position of fingertips relative to their joints
+    to determine finger states. Critical for ASL recognition as many signs 
+    differ by which fingers are extended.
+    
+    Args:
+        landmarks: MediaPipe hand landmarks object
+    
+    Returns:
+        list: Binary states [thumb, index, middle, ring, pinky] where 1=extended, 0=bent
     """
     fingers = []
     

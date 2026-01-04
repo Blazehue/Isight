@@ -13,6 +13,13 @@ api_keys.txt
 logs/
 *.log
 
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
 # Python
 __pycache__/
 *.py[cod]
@@ -37,6 +44,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
 
 # Virtual environments
 venv/
@@ -51,6 +61,7 @@ env/
 *.swo
 *~
 .DS_Store
+*.code-workspace
 
 # Model files (if too large)
 *.h5
@@ -63,3 +74,7 @@ env/
 # *.csv
 # *.json
 # training_data/
+
+# OS specific
+Thumbs.db
+.DS_Store

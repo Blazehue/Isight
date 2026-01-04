@@ -1,6 +1,17 @@
 """
 Real-Time Detection Module for Sign Language Recognition
-Implements robust prediction pipeline with confidence filtering and temporal smoothing
+
+This module implements a robust prediction pipeline with confidence filtering and
+temporal smoothing for real-time sign language gesture detection.
+
+Features:
+- Confidence-based prediction filtering
+- Temporal smoothing for stable results
+- Multiple detector types support
+- FPS tracking and performance monitoring
+
+Author: Blazehue
+Date: January 2026
 """
 
 import numpy as np

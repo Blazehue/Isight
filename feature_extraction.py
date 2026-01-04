@@ -105,8 +105,17 @@ def calculate_finger_states(landmarks):
 
 def calculate_joint_angles(landmarks):
     """
-    Calculate angles at each joint - helps differentiate similar gestures.
-    Returns angles in degrees for major joints.
+    Calculate angles at each joint to help differentiate similar gestures.
+    
+    This function computes the angle at each finger joint, providing geometric
+    information that helps distinguish between gestures with similar hand positions
+    but different finger configurations.
+    
+    Args:
+        landmarks: MediaPipe hand landmarks object
+    
+    Returns:
+        list: Angles in degrees for 10 major joints (2 per finger)
     """
     angles = []
     

@@ -1,5 +1,9 @@
 # High-Accuracy Sign Language Detector with MediaPipe
 
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-green.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 A comprehensive, production-ready sign language detection system built with Google's MediaPipe Hands for maximum accuracy (>95% target). This system leverages state-of-the-art hand landmark detection with 21 precise 3D points to achieve reliable, real-time gesture recognition.
 
 ## 🌟 Key Features

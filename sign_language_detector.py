@@ -1,6 +1,17 @@
 """
 Main Application - High-Accuracy Sign Language Detector
-Complete pipeline for real-time sign language detection using MediaPipe
+
+Complete pipeline for real-time sign language detection using MediaPipe.
+This is the main entry point for running the detection system.
+
+Features:
+- Real-time webcam detection
+- Multiple detector types
+- Configurable confidence thresholds
+- Visual feedback and statistics
+
+Author: Blazehue
+Date: January 2026
 """
 
 import cv2

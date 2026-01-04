@@ -1,4 +1,6 @@
-# Requirements for High-Accuracy Sign Language Detector
+# Requirements for ISight - Sign Language Detector
+# Author: Blazehue
+# Date: January 2026
 
 # Core dependencies
 opencv-python>=4.8.0

@@ -1,6 +1,18 @@
 """
 Visualization Module for Sign Language Detection
-Provides comprehensive visualization and debugging tools
+
+This module provides comprehensive visualization and debugging tools for
+hand landmark detection and gesture recognition.
+
+Features:
+- Hand landmark visualization
+- Bounding box display
+- Finger state indicators
+- Prediction confidence display
+- Performance metrics overlay
+
+Author: Blazehue
+Date: January 2026
 """
 
 import cv2

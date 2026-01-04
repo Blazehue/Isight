@@ -382,11 +382,11 @@ mediapipe/
 
 ## 📄 License
 
-This project is provided as-is for educational and research purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
-Contributions welcome! Areas for improvement:
+Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. Areas for improvement:
 - Additional gesture datasets
 - New feature engineering techniques
 - Performance optimizations
@@ -398,6 +398,12 @@ Contributions welcome! Areas for improvement:
 - [MediaPipe Hands Documentation](https://google.github.io/mediapipe/solutions/hands.html)
 - [ASL Alphabet Reference](https://www.nidcd.nih.gov/health/american-sign-language)
 - [Hand Gesture Recognition Research](https://arxiv.org/abs/2006.10214)
+
+## 🙏 Acknowledgments
+
+- Google MediaPipe team for the excellent hand tracking solution
+- The open-source community for ML tools and libraries
+- ASL community for inspiration
 
 ## 🎯 Success Metrics Achieved
 
@@ -414,4 +420,4 @@ Contributions welcome! Areas for improvement:
 
 ---
 
-**Built with ❤️ using MediaPipe and Python**
+**Built with ❤️ using MediaPipe and Python by [Blazehue](https://github.com/Blazehue)**

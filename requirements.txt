@@ -1,18 +1,19 @@
 # Requirements for ISight - Sign Language Detector
 # Author: Blazehue
 # Date: January 2026
+# Python Version: 3.8+
 
 # Core dependencies
-opencv-python>=4.8.0
-mediapipe>=0.10.0
-numpy>=1.24.0
+opencv-python>=4.8.0         # Computer vision and video processing
+mediapipe>=0.10.0            # Hand landmark detection
+numpy>=1.24.0                # Numerical computing
 
 # Machine Learning
-scikit-learn>=1.3.0
+scikit-learn>=1.3.0          # ML algorithms and utilities
 
 # Visualization and Plotting
-matplotlib>=3.7.0
-seaborn>=0.12.0
+matplotlib>=3.7.0            # Plotting and visualization
+seaborn>=0.12.0              # Statistical visualization
 
 # Optional: For better performance
 # opencv-contrib-python>=4.8.0  # Additional OpenCV modules

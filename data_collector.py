@@ -23,6 +23,12 @@ class DataCollector:
     """
     
     def __init__(self, save_dir='training_data'):
+        """
+        Initialize the DataCollector with specified save directory.
+        
+        Args:
+            save_dir (str): Directory to save training data (default: 'training_data')
+        """
         self.data = []
         self.labels = []
         self.save_dir = save_dir

@@ -78,6 +78,10 @@ A comprehensive, production-ready sign language detection system built with Goog
 ### 1. Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/Blazehue/Isight.git
+cd Isight
+
 # Install required packages
 pip install opencv-python mediapipe numpy scikit-learn matplotlib seaborn
 ```

@@ -25,6 +25,10 @@ import mediapipe as mp
 def extract_features(hand_landmarks):
     """
     Extract robust features from MediaPipe landmarks.
+    
+    This is the main feature extraction pipeline that combines multiple
+    feature types to create a comprehensive representation of hand gestures.
+    
     Returns a comprehensive feature vector for gesture recognition.
     
     Features include:
@@ -36,6 +40,12 @@ def extract_features(hand_landmarks):
     - Bounding box features (4 features)
     
     Total: ~97 features
+    
+    Args:
+        hand_landmarks: MediaPipe hand landmarks object containing 21 3D points
+    
+    Returns:
+        numpy.ndarray: Feature vector of length ~97
     """
     features = []
     

@@ -289,8 +289,16 @@ def calculate_palm_orientation(landmarks):
 
 def calculate_bounding_box_features(landmarks):
     """
-    Calculate bounding box features of the hand.
-    Returns: [width, height, aspect_ratio, area]
+    Calculate normalized bounding box features of the hand.
+    
+    Computes geometric properties of the hand's bounding box which helps
+    in scale-invariant recognition.
+    
+    Args:
+        landmarks: MediaPipe hand landmarks object
+    
+    Returns:
+        list: [width, height, aspect_ratio, area] - all normalized values
     """
     # Get all x and y coordinates
     x_coords = [lm.x for lm in landmarks.landmark]

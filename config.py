@@ -7,6 +7,11 @@ Author: Blazehue
 Date: January 2026
 """
 
+# Version Information
+__version__ = '1.0.0'
+__author__ = 'Blazehue'
+__license__ = 'MIT'
+
 # Model Training Configuration
 TRAINING_CONFIG = {
     'test_size': 0.2,

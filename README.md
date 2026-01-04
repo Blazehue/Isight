@@ -9,12 +9,16 @@ A comprehensive, production-ready sign language detection system built with Goog
 
 ## 📚 Documentation
 
-- [API Documentation](API.md)
-- [Troubleshooting Guide](TROUBLESHOOTING.md)
-- [FAQ](FAQ.md)
-- [Performance Benchmarks](BENCHMARKS.md)
-- [Architecture Overview](ARCHITECTURE.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
+- [User Guide](USER_GUIDE.md) - Complete step-by-step guide
+- [API Documentation](API.md) - Full API reference
+- [Troubleshooting Guide](TROUBLESHOOTING.md) - Solutions to common issues
+- [FAQ](FAQ.md) - Frequently asked questions
+- [Performance Benchmarks](BENCHMARKS.md) - Performance metrics
+- [Architecture Overview](ARCHITECTURE.md) - System design
+- [Code Examples](EXAMPLES.md) - Usage examples
+- [Contributing Guidelines](CONTRIBUTING.md) - How to contribute
+- [Code of Conduct](CODE_OF_CONDUCT.md) - Community guidelines
+- [Roadmap](ROADMAP.md) - Future plans
 
 ## 🌟 Key Features
 

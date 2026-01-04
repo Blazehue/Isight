@@ -1,6 +1,21 @@
 """
 Feature Extraction Module for Sign Language Detection
-Extracts comprehensive features from MediaPipe hand landmarks for maximum accuracy
+
+This module extracts comprehensive features from MediaPipe hand landmarks 
+to achieve maximum accuracy in gesture recognition.
+
+The feature vector includes:
+- 3D landmark positions (63 features)
+- Finger states (5 features)
+- Joint angles (10 features)
+- Landmark distances (12 features)
+- Palm orientation (3 features)
+- Bounding box features (4 features)
+
+Total: ~97 robust features per frame
+
+Author: Blazehue
+Date: January 2026
 """
 
 import numpy as np

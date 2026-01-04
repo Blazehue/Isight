@@ -243,8 +243,17 @@ def calculate_landmark_distances(landmarks):
 
 def calculate_palm_orientation(landmarks):
     """
-    Calculate palm normal vector - crucial for detecting hand rotation.
-    Uses cross product of two palm vectors to get the normal.
+    Calculate palm normal vector for detecting hand rotation.
+    
+    Uses the cross product of two palm vectors to compute the normal vector
+    perpendicular to the palm plane. This is crucial for detecting hand orientation
+    and rotation in 3D space.
+    
+    Args:
+        landmarks: MediaPipe hand landmarks object
+    
+    Returns:
+        list: 3D normal vector [x, y, z] representing palm orientation
     """
     # Use three points to define palm plane
     wrist = np.array([

@@ -1,4 +1,4 @@
-# High-Accuracy Sign Language Detector with MediaPipe
+# ISight
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-green.svg)

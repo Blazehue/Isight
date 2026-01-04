@@ -150,8 +150,18 @@ def calculate_joint_angles(landmarks):
 
 def calculate_angle_3points(p1, p2, p3):
     """
-    Calculate angle at p2 formed by p1-p2-p3.
-    Returns angle in degrees.
+    Calculate angle at point p2 formed by the line segments p1-p2-p3.
+    
+    Uses vector mathematics to compute the angle between two line segments
+    sharing a common point.
+    
+    Args:
+        p1 (list): First point coordinates [x, y, z]
+        p2 (list): Middle point (vertex) coordinates [x, y, z]
+        p3 (list): Third point coordinates [x, y, z]
+    
+    Returns:
+        float: Angle at p2 in degrees (0-180)
     """
     p1 = np.array(p1)
     p2 = np.array(p2)

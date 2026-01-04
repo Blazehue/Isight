@@ -1,6 +1,11 @@
 """
 Data Collection Module for Sign Language Detection
-Collects high-quality training samples with variation in position, angle, and distance
+
+This module provides an interactive interface for collecting high-quality training samples
+with variation in position, angle, and distance for robust gesture recognition.
+
+Author: Blazehue
+Date: January 2026
 """
 
 import cv2

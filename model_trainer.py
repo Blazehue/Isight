@@ -1,6 +1,18 @@
 """
 Model Training Module for Sign Language Detection
-Trains multiple models and selects the best performer for maximum accuracy
+
+This module trains multiple ML models (Random Forest, SVM, Neural Network, Gradient Boosting)
+and automatically selects the best performer for maximum accuracy.
+
+Features:
+- Multiple algorithm support
+- Hyperparameter optimization
+- Cross-validation
+- Performance visualization
+- Confusion matrix generation
+
+Author: Blazehue
+Date: January 2026
 """
 
 import numpy as np

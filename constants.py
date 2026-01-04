@@ -1,0 +1,71 @@
+"""
+Constants Module for Sign Language Detection
+
+Defines constant values used throughout the project.
+
+Author: Blazehue
+Date: January 2026
+"""
+
+# MediaPipe Hand Landmark Indices
+WRIST = 0
+THUMB_CMC = 1
+THUMB_MCP = 2
+THUMB_IP = 3
+THUMB_TIP = 4
+INDEX_MCP = 5
+INDEX_PIP = 6
+INDEX_DIP = 7
+INDEX_TIP = 8
+MIDDLE_MCP = 9
+MIDDLE_PIP = 10
+MIDDLE_DIP = 11
+MIDDLE_TIP = 12
+RING_MCP = 13
+RING_PIP = 14
+RING_DIP = 15
+RING_TIP = 16
+PINKY_MCP = 17
+PINKY_PIP = 18
+PINKY_DIP = 19
+PINKY_TIP = 20
+
+# Finger tip indices
+FINGER_TIPS = [THUMB_TIP, INDEX_TIP, MIDDLE_TIP, RING_TIP, PINKY_TIP]
+
+# Finger MCP (base) indices
+FINGER_MCPS = [THUMB_MCP, INDEX_MCP, MIDDLE_MCP, RING_MCP, PINKY_MCP]
+
+# Feature dimensions
+NUM_LANDMARKS = 21
+LANDMARK_DIMS = 3  # x, y, z
+NUM_FINGERS = 5
+NUM_JOINT_ANGLES = 10
+NUM_DISTANCES = 12
+NUM_ORIENTATION = 3
+NUM_BBOX = 4
+TOTAL_FEATURES = (NUM_LANDMARKS * LANDMARK_DIMS + NUM_FINGERS + 
+                  NUM_JOINT_ANGLES + NUM_DISTANCES + 
+                  NUM_ORIENTATION + NUM_BBOX)  # ~97 features
+
+# Camera settings
+DEFAULT_CAMERA_WIDTH = 1280
+DEFAULT_CAMERA_HEIGHT = 720
+DEFAULT_CAMERA_FPS = 60
+
+# Performance thresholds
+MIN_ACCEPTABLE_FPS = 30
+TARGET_FPS = 55
+MAX_FRAME_LATENCY_MS = 20
+
+# Model file extensions
+MODEL_EXTENSION = '.pkl'
+DATA_EXTENSION = '.pkl'
+
+# Colors (BGR format for OpenCV)
+COLOR_GREEN = (0, 255, 0)
+COLOR_RED = (0, 0, 255)
+COLOR_BLUE = (255, 0, 0)
+COLOR_YELLOW = (0, 255, 255)
+COLOR_WHITE = (255, 255, 255)
+COLOR_BLACK = (0, 0, 0)

@@ -1,4 +1,4 @@
-# High-Accuracy Sign Language Detector with MediaPipe
+# ISight
 
 A comprehensive, production-ready sign language detection system built with Google's MediaPipe Hands for maximum accuracy (>95% target). This system leverages state-of-the-art hand landmark detection with 21 precise 3D points to achieve reliable, real-time gesture recognition.
 

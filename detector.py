@@ -62,15 +62,19 @@ class SignLanguageDetector:
         """
         Predict gesture from hand landmarks with confidence filtering and temporal smoothing.
         
+        This method performs prediction using the trained model and applies confidence
+        thresholding and temporal smoothing for stable results.
+        
         Args:
-            hand_landmarks: MediaPipe hand landmarks
-            features: Pre-extracted features (optional, will extract if not provided)
+            hand_landmarks: MediaPipe hand landmarks object
+            features (optional): Pre-extracted features array. If None, features will be 
+                               extracted automatically from hand_landmarks
         
         Returns:
             tuple: (prediction, confidence, is_stable)
-                - prediction: Predicted gesture name or None if confidence too low
-                - confidence: Prediction confidence (0-1)
-                - is_stable: Whether prediction is stable over time
+                - prediction (str or None): Predicted gesture name or None if confidence too low
+                - confidence (float): Prediction confidence score (0-1)
+                - is_stable (bool): Whether prediction is stable over temporal buffer
         """
         # Extract features if not provided
         if features is None:

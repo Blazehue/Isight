@@ -182,8 +182,16 @@ def calculate_angle_3points(p1, p2, p3):
 
 def calculate_landmark_distances(landmarks):
     """
-    Calculate distances between important landmark pairs.
-    Helps recognize hand shapes and configurations.
+    Calculate Euclidean distances between important landmark pairs.
+    
+    Computes distances between key points on the hand to help recognize
+    specific hand shapes and finger configurations.
+    
+    Args:
+        landmarks: MediaPipe hand landmarks object
+    
+    Returns:
+        list: Distances between 12 important landmark pairs
     """
     distances = []
     

@@ -1,6 +1,11 @@
 """
 Quick Start Script for Sign Language Detector
-Demonstrates the complete workflow from data collection to detection
+
+This script demonstrates the complete workflow from data collection to real-time detection,
+providing step-by-step guidance for setting up the sign language detection system.
+
+Author: Blazehue
+Date: January 2026
 """
 
 def main():
